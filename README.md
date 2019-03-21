@@ -18,7 +18,9 @@ In most network environment, it is a common practice that in-bound policy is set
 
 Due to this environment, exploitation by bind shell is not really easily acheiveable.
 
-However, since the out-bound policy is relatively loose, implementing reverse shell is very effective to control a remote node.
+However, since the attcker is the server so that the out-bound policy can be set relatively loose or no out-bound policy at all, implementing reverse shell is very effective to control a remote node.
+
+All communication between the server and the client is not secure and can be easily detected by network monitoring tools like Wireshark. I am planning to add a security layer.
 
 
 
