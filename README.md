@@ -6,7 +6,7 @@ However, I do find network/socket programming very attractive and based on what 
 
 Network class in college, I have made this little sneaky programs.
 
-Just because I like to understand about penetration testing, it does not mean I would like to use well known tools or frameworks. Instead, I wanted to try making my own script and see what I can do.
+Just because I like to understand about penetration testing, it does not mean I would like to relentlessly abuse well known tools or frameworks (such as metasploit....veil....sqlmap.....etc). Instead, I wanted to try making my own script and see what I can do. I am not saying those penetration tools are bad. In fact, I get amazed how well they are automated to attack mutliple victim nodes. I just do not want to solely rely on them.
 
 Server program opens up an accessible port.
 
