@@ -52,8 +52,7 @@ Again, even though this is a very simple program, it won't be detected by an ant
 So, DO NOT USE TO HARM OTHER ENDPOINTS.
 
 ### But even if I run the program as a server......, why would anybody run this program as a client?
-### Well, that is your portion. You may set up a script to automatically run this program and embed the script
-### to a image file or something. That is purely up to you.
+### Well, that is your portion. You may set up a script to automatically run this program and embed the scrip to a image file or something. That is entirely up to you.
 
 
 # A Very Long Disclaimer: 
