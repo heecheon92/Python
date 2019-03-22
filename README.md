@@ -33,16 +33,16 @@ All communication between the server and the client is not secure and can be eas
 
 
 
-Bind Shell:
-
+## Bind Shell:
+```
 Server (Victim) ---------|Firewall|<<---------Client (Attacker)
-
+```
 It is easy to fail to make connection if an out-bound policy of firewall is well set.
 
-Reverse Shell:
-
+## Reverse Shell:
+```
 Server (Attacker) -------NO-FIREWALL <<------------Client (Victim)
-
+```
 Attacker set no in-bound policy so that victims can freely connect to the trap server.
 
 So, a reverse shell is just a shell that exploits common firewall's nature.
