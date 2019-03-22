@@ -54,7 +54,7 @@ So, DO NOT USE TO HARM OTHER ENDPOINTS.
 
 # A Very Long Disclaimer: 
 
-I am not responsible for any real / potential damage by the use of this project
+I am not responsible for any real / potential damage caused by the use of this project
 
 I am not a professional penetration tester.
 
