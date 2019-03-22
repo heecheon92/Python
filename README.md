@@ -19,7 +19,7 @@ You can run this program either as a server (attacker) or client (victim)
 
 Server program opens up an accessible port.
 
-Once the server program is running, client program can be executed to connect to the hosted port by the server.
+Once the server program is running, client program can be executed to connect to the port hosted by the server.
 
 Unlike normal shells or also known as "bind shell", in which an innocent server simply allow an user to connect and the malicous user client can send payloads to attack the server node, in reverse shell, the server program acts as a malicous endpoint and allows the server to execute shell commands to a client.
 
