@@ -45,7 +45,7 @@ Server (Attacker) -------NO-FIREWALL <<------------Client (Victim)
 
 Attacker set no in-bound policy so that victims can freely connect to the trap server.
 
-So, a reverse shell is just a shell that uses common firewall's counter-exploitative nature.
+So, a reverse shell is just a shell that exploits common firewall's nature.
 
 Again, even though this is a very simple program, it won't be detected by an anti-virus software as a threat.
 
