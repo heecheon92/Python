@@ -7,6 +7,7 @@ import requests
 import string
 import re
 import smtplib
+import time
 from bs4 import BeautifulSoup
 
 URL = 'https://www.amazon.com/Evlution-Pre-workout-Pre-Workout-Watermelon-Pikatropin-Free/dp/B01EE5DCT2/ref=sr_1_2_sspa?crid=4UX4N7TQLX3T&keywords=engine%2Bshred%2Bpre%2Bworkout&qid=1563679668&s=gateway&sprefix=engine%2Bshred%2Caps%2C171&sr=8-2-spons&smid=A2PLYW0DW8DU2C&th=1'
@@ -68,4 +69,6 @@ def send_mail():
     server.quit()
 
 if __name__ == "__main__":
-    check_price()
+    while(True):
+        check_price()
+        time.sleep(60*60*24)
