@@ -48,6 +48,14 @@ def check_price():
     if (converted_price < 28.00):
         send_mail()
 
+"""
+In order to use send_mail() function, the user of this program must go through some steps in his or her google account.
+    1. Enable less secure app.
+    2. Activate two step verification.
+    3. Enable Google App Password and select Mail to use google mail server.
+    4. Once you enable App Password, the user will get a password.
+    5. The user can use this password on this program instead of actual Google account password.
+"""
 def send_mail():
     server = smtplib.SMTP(host='smtp.gmail.com', port=587)
     server.ehlo()
